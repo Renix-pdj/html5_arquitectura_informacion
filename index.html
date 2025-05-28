@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Metadatos básicos para correcta visualización y SEO -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <meta name="description" content="Aplicación web dedicada a la música: noticias, álbumes y contacto" />
+  <meta name="keywords" content="música, álbumes, noticias, conciertos, artistas" />
+  <meta name="author" content="Tu Nombre" />
+  
+  <title>Mundo Musical - Noticias y Álbumes</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+<body>
+  <!-- Encabezado con logo y navegación -->
+  <header>
+    <figure>
+      <img src="logo-musica.png" alt="Logotipo Mundo Musical" width="150" />
+      <figcaption>Logo oficial Mundo Musical</figcaption>
+    </figure>
+    <nav aria-label="Menú principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#albumes">Álbumes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <h1>Mundo Musical</h1>
+
+    <!-- Sección inicio -->
+    <section id="inicio">
+      <h2>Bienvenido a Mundo Musical</h2>
+      <p>Tu portal de referencia para las últimas noticias, lanzamientos y eventos relacionados con la música.</p>
+    </section>
+
+    <!-- Sección noticias -->
+    <section id="noticias">
+      <h2>Noticias Recientes</h2>
+
+      <article>
+        <h3>Festival Internacional de Jazz 2025</h3>
+        <p>El Festival Internacional de Jazz vuelve este año con artistas de renombre mundial y nuevas propuestas emergentes.</p>
+      </article>
+
+      <article>
+        <h3>Nuevo Álbum de La Banda Estelar</h3>
+        <p>La Banda Estelar lanza su esperado álbum “Galaxia Sonora”, una mezcla de sonidos clásicos y modernos.</p>
+      </article>
+    </section>
+
+    <!-- Sección álbumes -->
+    <section id="albumes">
+      <h2>Álbumes Destacados</h2>
+      <ul>
+        <li><strong>Galaxia Sonora</strong> - La Banda Estelar (2025)</li>
+        <li><strong>Ritmos Urbanos</strong> - DJ Noche (2024)</li>
+        <li><strong>Acústico en Vivo</strong> - María y el Sol (2025)</li>
+      </ul>
+      
+      <aside>
+        <h3>Recomendación</h3>
+        <blockquote>
+          <p>"Galaxia Sonora es una obra maestra que fusiona jazz, rock y electrónica con gran maestría."</p>
+          <footer>— Revista Música Hoy</footer>
+        </blockquote>
+      </aside>
+    </section>
+
+    <!-- Sección contacto con formulario -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="#" method="post" novalidate>
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" required aria-required="true" /><br /><br />
+
+        <label for="email">Correo electrónico:</label><br />
+        <input type="email" id="email" name="email" required aria-required="true" /><br /><br />
+
+        <label for="asunto">Asunto:</label><br />
+        <input type="text" id="asunto" name="asunto" required aria-required="true" /><br /><br />
+
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje" rows="5" required aria-required="true"></textarea><br /><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página con información de contacto y redes sociales -->
+  <footer>
+    <section aria-label="Información de contacto">
+      <h2>Información de Contacto</h2>
+      <address>
+        Email: <a href="mailto:contacto@mundomusical.com">contacto@mundomusical.com</a><br />
+        Teléfono: <a href="tel:+34123456789">+34 123 456 789</a><br />
+        Dirección: Calle de la Música, 45, Ciudad, País
+      </address>
+    </section>
+
+    <section aria-label="Redes sociales">
+      <h2>Síguenos en Redes Sociales</h2>
+      <ul>
+        <li><a href="#" aria-label="Facebook">Facebook</a></li>
+        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+      </ul>
+    </section>
+
+    <p>&copy; 2025 Mundo Musical. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
